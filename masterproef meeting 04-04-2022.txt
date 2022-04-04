@@ -1,0 +1,16 @@
+- installs wegdoen of environment opslaan als het kan
+- imports die je uiteindelijk niet gebruikt, er uit smijten
+- slechte resultaten bij generalisatie zijn te verwachten dus daar u niet door laten afschrikken
+- verschil windows unix kan geleerd zijn
+- destination ports niet representatief
+- a3c voor pretraining in transformers, basis structuur vinden (mss iets te vinden over meer episodes -> minder accuracy)
+- GPU niet volledig gebruikt --> mss oplossen? --> batch size vergroten
+- 3 grote blokken:
+	- DIT IS REINFORCEMENT LEARNING + DIT ZIJN DE METHODES DIE IK GA GEBRUIKEN EN ZE DUIDELIJK CONTRASTEREN EN MOTIVEREN
+	- BREIDT UIT NAAR MEER DATASETS
+	- DIT IS WAT JE KAN VERWACHTEN ALS JE DRL TOEPAST EN DEEL 2, WE HEBBEN DE GETRAINDE MODELLEN EN ZE NADIEN KUNNEN INLADEN
+	- NU GENERALISATIE
+	- PROBEREN OM TE TESTEN MET MEER EN MEER GEVARIEERDE DATA, trainen op 2017 2018 en 2019 en dan crosstesten. als het niet werkt, 2017 + 2018 testen en dan testen op 2019 bv
+	- kijken of het van data afhangt, van hoeveelheid data, ... (POTENTIEEL BLOK 4)
+- GPU lab job interface gebruiken om ze in parallel uit te voeren vanuit terminal
+- overinclusief zijn met uw metrics, sla ze allemaal op zodat je ze niet opnieuw moet doen
