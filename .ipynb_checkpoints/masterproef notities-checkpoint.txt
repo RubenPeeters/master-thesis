@@ -1,0 +1,23 @@
+- binaire classificatie, gelijk gewogen dataset, verwachtte accuracy >= 85% in gebalanceerde dataset
+- rekenwerk verpakken in script en callen jupyter job q https://gpulab.ilabt.imec.be/jobs
+
+
+- draft mist soms diepgang, vooral waar specifieke papers worden gelinked of uitgelegd.
+- followup werk van auteurs die in de survey vermeld worden (binnen gestructureerde data).
+- goeie literatuurstudie lijkt op een goede survey, plus de bronnen van de survey.
+- focus in de eerste plaats op het meer kwaliteitsvolle materiaal en het dichtst staat bij de methode die je gaat gebruiken.
+- verbeteren samen met de implementatie, vooral dingen die je gebruikt in de implementatie
+- 3 tot 5 citations bij grote evoluties in reinforcement learning
+- deel over de datasets moet beter, vergelijking tussen de datasets maar ook meer duidelijk maken welke datasets gebruikt gaan worden.
+- alles wat je gebruikt mag je meer tijd in steken.
+- graphics de bron citeren, huidige zijn goed
+- meer richting survey, voor het deel van de implementatie
+- uitgebreide uitleg over bv DQN, wat je gebruikt in het methodologie gedeelte.
+
+
+- hoofdletter gebruik, doorheen de tekst Machine Learning, Network Intrusion Detection, ... moet niet met hoofdletters.
+- meervoudsvormen die onnodig zijn of verkeerd gespeld. IDSs ipv IDS's.
+- multi figure maken voor sommmige afbeeldingen, moet niet gigantisch zijn zoals nu maar mag ook groot zijn.
+- \centering
+
+- bij rainbow dqn, steun op wat ze al online gezet hebben. pas eigen code aan ipv opnieuw te maken wat de SOTA is.
