@@ -1,10 +1,8 @@
 class IdsEnv(gym.Env):
     def __init__(self, images_per_episode=1, dataset=(x_train, y_train), random=True):
-        # Actions we can take, classify as malicious or non-malicious (later also the correct attack)
-        # change to 19 if detectiong all different attacks
         self.action_space = gym.spaces.Discrete(2)
-         # All the features we have, len(important_features) - 1 features and 1 label. Label should not be included
-        self.observation_space = gym.spaces.Box(low=float('-inf'), high=float('inf'), shape=(LENGTH,))
+        self.observation_space = 
+            gym.spaces.Box(low=float('-inf'), high=float('inf'), shape=(LENGTH,))
         self.images_per_episode = images_per_episode
         self.step_count = 0
 
